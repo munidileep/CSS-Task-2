@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.chess{
+    height: 560px;
+    width: 560px;
+    margin: auto;
+    position: relative;
+    top: 50px;
+    border: 10px double rgb(0, 0, 0);
+}
+.row{
+    height: 70px;
+    width: 100%
+    ;
+}
+.blk,.wht{
+    height: 70px;
+    width: 70px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blk{
+    background-color: rgb(214, 207, 211);
+}
+.wht{
+    background-color: rgb(87, 90, 92);
+}
+.chess .row i{
+    font-size:50px;
+}

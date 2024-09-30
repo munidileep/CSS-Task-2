@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: white;
+        }
+        table{
+            border-collapse: collapse;
+            margin: 20px;
+        }
+        #chess{
+            position: relative;
+            right: 190px;
+        }
+        #chess td{
+            width: 50px;
+            height: 50px;
+        }
+        #chess tr:nth-child(even),td:nth-child(odd){
+            background-color: black;
+        }
+        #chess tr:nth-child(odd),td:nth-child(even){
+            background-color: black;
+        }
+        #chess tr:nth-child(even) td:nth-child(odd){
+            background-color: white;
+            border: 1px solid #000;
+        }
+        #chess tr:nth-child(odd) td:nth-child(even){
+            background-color: white;
+            border: 1px solid black;
+        }
+        #chess td{
+            border: 1px solid black;
+        }
+        .ul1{
+            list-style-type: none;
+            position: relative;
+            bottom: 250px;
+            left: 285px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            gap: 40px;
+            font-weight: bold;
+            font-size: 27px;
+        }
+        .ul2{
+            list-style-type: none;
+            position: relative;
+            right: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            gap: 23px;
+            font-weight: bold;
+            font-size: 25px;
+        }
+        div{
+            position: relative;
+            top: 250px;
+            right: 500px;
+        }
+    </style>
+</head>
+<body>
+    <ul class="ul1">
+        <li>a</li>
+        <li>b</li>
+        <li>c</li>
+        <li>d</li>
+        <li>e</li>
+        <li>f</li>
+        <li>g</li>
+        <li>h</li>
+    </ul>
+    <ul class="ul2">
+        <li>8</li>
+        <li>7</li>
+        <li>6</li>
+        <li>5</li>
+        <li>4</li>
+        <li>3</li>
+        <li>2</li>
+        <li>1</li>
+    </ul>
+    <table id="chess">
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <br>
+    <div>
+        <a href="chess.html">click for another layout</a>
+    </div>
+</body>
+</html>
